@@ -1,9 +1,10 @@
-Старался не перебарщивать с чистотой компонентов, не вынося всю логику в кастомные хуки, дабы не терялся контекст самой логики в компонентах)
+I tried not to overdo it with component purity, not moving all the logic into custom hooks, so as not to lose the context of the logic within the components.
 
-Frontend-стек: React, Redux (RTK), React Router, Socket IO, TypeScript, MaterialUI, Framer Motion.
+Frontend stack: React, Redux (RTK), React Router, Socket IO, TypeScript, MaterialUI, Framer Motion.
 
-Backend-стек: ExpressJS, TypeScript, Socket IO.
+Backend stack: ExpressJS, TypeScript, Socket IO.
 
-Запуск проекта происходит в два этапа в консоли:
+The project launches in two steps in the console:
+
 1. sibers/client: npm start
 2. sibers/server: ts-node index.ts
